@@ -1,3 +1,4 @@
+# было не легко пока понять логику блин
 import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -12,14 +13,17 @@ with webdriver.Chrome() as browser:
 
         # Суммирование числовых значений в каждом теге <p>
         total_sum = 0
-        for fragment in fragments:
-            print(fragment.text)
-            try:
-                # Преобразование текста в число и добавление к сумме
-                total_sum += int(fragment.text)
-            except ValueError:
-                # Игнорируем значения, которые не являются числами
-                continue
+        for i, fragment in enumerate(fragments):
+            if int(fragment.text) % 2 == 0:  # Проверка каждого второго тега <p>
+                try:
+                    print(fragment.text)
+                    # Преобразование текста в число и добавление к сумме
+                    total_sum += int(fragment.text)
+                    i += 1
+                except ValueError:
+                    # Игнорируем значения, которые не являются числами
+                    continue
+
 
         # Вывод итоговой суммы
         print("Общая сумма:", total_sum)
