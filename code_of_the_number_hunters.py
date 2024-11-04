@@ -14,7 +14,7 @@ with webdriver.Chrome() as browser:
         # Суммирование числовых значений в каждом теге <p>
         total_sum = 0
         for i, fragment in enumerate(fragments):
-            if int(fragment.text) % 2 == 0:  # Проверка каждого второго тега <p>
+            if int(fragment.text) % 2 == 0:  # Проверка каждого второго тега <p>, а скорее всего на четное число зачем я использую enumerate ладно пускай стоит
                 try:
                     print(fragment.text)
                     # Преобразование текста в число и добавление к сумме
