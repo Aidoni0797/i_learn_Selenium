@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 with webdriver.Chrome() as browser:
     browser.get('https://parsinger.ru/selenium/1/1.html')
 
-    # Ищем все div с классом 'text'
+    # Ищем все div с классом 'form'
     divs = browser.find_elements(By.CLASS_NAME, 'form')
 
     # Проходимся по каждому div
