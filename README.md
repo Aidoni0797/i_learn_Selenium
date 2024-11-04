@@ -2,3 +2,13 @@
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Stepik](https://img.shields.io/badge/Stepik-000000?style=for-the-badge&logo=stepik&logoColor=white)
 
+Когда полезно запускать Selenium c расширениями? 
+ - Блокировка рекламы
+ - Повышение безопасности
+ - Эмуляция мобильных устройств
+ - Манипуляции с куками
+ - Отладка и анализ
+ - Скриншоты и запись экрана
+ - Специфичные нужды
+ - Смена User-Agent
+
