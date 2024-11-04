@@ -12,3 +12,14 @@
  - Специфичные нужды
  - Смена User-Agent
 
+
+Популярные расширения:
+ - AdBlock / uBlock Origin
+ - EditThisCookie
+ - User-Agent Switcher
+ - Firebug / Chrome Developer Tools
+ - Screenshot
+ - LastPass / 1Password
+ - Proxy SwitchyOmega
+ - Wappalyzer
+ - Tampermonkey
